@@ -105,6 +105,7 @@ input, select {
 
 /* My CSS Code */
 
+/* Phone settings */
 
 /* navbar */
 
@@ -163,6 +164,8 @@ header nav ul li a{
 header .a-projects {
     display: None;
 }
+
+/* Desktop responsive for header*/
 
 @media only screen and (min-width: 1000px) {
     header .a-logo {
@@ -253,7 +256,7 @@ header .a-projects {
     text-align: center;
 }
 
-/* height: 500px; for the section below */
+/* height: 500px; for the section below (desktop responsive for main content) */
 
 @media only screen and (min-width: 1000px) {
 
@@ -296,62 +299,125 @@ header .a-projects {
 
 /* PROJECTS page */
 
-.project-links {
-    overflow: hidden;
-    margin-bottom: 20px;
+@media only screen and (min-width: 1000px) {
+
+    .project-links {
+        overflow: hidden;
+        margin-bottom: 20px;
+  }
+
+    .project-links h2 {
+        font-weight: 600;
+        font-family: Catamaran;
+        font-size: 28px;
+        color: #111;
+        text-transform: uppercase;
+  }
+
+    .project-links .wrapper div {
+        width: 230px;
+        height: 230px;
+        margin: 20px 10px 0px;
+        background-color: #e3e3e3;
+        float: left;
+  }
+
+    .project-links .wrapper div p {
+        padding-top: 45%;
+        font-family: Catamaran;
+        font-size: 24px;
+        color: #111;
+        text-transform: uppercase;
+        text-align: center;
+  }
+
+    .about-info .wrapper div {
+        width: 980px;
+        height: 230px;
+        margin: 0 0 20px 10px;
+        background-color: #e3e3e3;
+        float: left;
+  }
+
+    .about-info .wrapper div h2 {
+        padding-top: 7%;
+        font-weight: 600;
+        font-family: Catamaran;
+        font-size: 28px;
+        color: #111;
+        text-transform: uppercase;
+        text-align: center;
+  }
+
+    .about-info .wrapper div p {
+        padding-top: 2%;
+        font-weight: 600;
+        font-family: Catamaran;
+        font-size: 16px;
+        color: #111;
+        text-align: center;
+  }
+}
+/* mobile responsive for projects.html */
+
+@media only screen and (max-width: 999px) {
+
+  .project-links .wrapper h2 {
+        padding-top: 20px;
+        font-weight: 600;
+        font-family: Catamaran;
+        font-size: 28px;
+        color: #111;
+        text-transform: uppercase;
+        text-align: center;
+  }
+
+    .project-links .wrapper div {
+        margin: 16px 14px 0;
+        width: calc(100% - 28px);
+        height: 100px;
+        background-color: #f2f2f2;
+
+  }
+
+    .project-links .wrapper div p {
+        padding-top: 12%;
+        font-family: Catamaran;
+        font-size: 24px;
+        color: #111;
+        text-transform: uppercase;
+        text-align: center;
+  }
+
+    .about-info .wrapper div {
+        padding-top: 10px;
+        width: calc(100% - 20px);
+        height: 200px;
+        margin: 20px 0 20px 10px;
+        background-color: #e3e3e3;
+        float: left;
+  }
+
+    .about-info .wrapper div h2 {
+        padding-top:10%;
+        font-weight: 600;
+        font-family: Catamaran;
+        font-size: 28px;
+        color: #111;
+        text-transform: uppercase;
+        text-align: center;
+  }
+
+    .about-info .wrapper div p {
+        padding-top: 5%;
+        font-weight: 600;
+        font-family: Catamaran;
+        font-size: 16px;
+        color: #111;
+        text-align: center;
+  }
 }
 
-.project-links h2 {
-    font-weight: 600;
-    font-family: Catamaran;
-    font-size: 28px;
-    color: #111;
-    text-transform: uppercase;
-}
-
-.project-links .wrapper div {
-    width: 230px;
-    height: 230px;
-    margin: 20px 10px 0px;
-    background-color: #e3e3e3;
-    float: left;
-}
-
-.project-links .wrapper div p {
-    padding-top: 45%;
-    font-family: Catamaran;
-    font-size: 24px;
-    color: #111;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.about-info .wrapper div {
-    width: 980px;
-    height: 230px;
-    margin: 0 0 20px 10px;
-    background-color: #e3e3e3;
-    float: left;
-}
-
-.about-info .wrapper div h2 {
-    padding-top: 7%;
-    font-weight: 600;
-    font-family: Catamaran;
-    font-size: 28px;
-    color: #111;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.about-info .wrapper div p {
-    padding-top: 2%;
-    font-weight: 600;
-    font-family: Catamaran;
-    font-size: 16px;
-    color: #111;
-    text-align: center;
-}
 /* Footer */
 
 footer {
@@ -393,6 +459,8 @@ footer ul li a{
     width: 82%;
     margin-bottom: 10px;
 }
+
+/* Desktop responsive for footer */
 
 @media only screen and (min-width: 1000px) {
   .footer-links-projects {
