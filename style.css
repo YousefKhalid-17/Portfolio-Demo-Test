@@ -294,6 +294,64 @@ header .a-projects {
 }
 
 
+/* PROJECTS page */
+
+.project-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.project-links h2 {
+    font-weight: 600;
+    font-family: Catamaran;
+    font-size: 28px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.project-links .wrapper div {
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0px;
+    background-color: #e3e3e3;
+    float: left;
+}
+
+.project-links .wrapper div p {
+    padding-top: 45%;
+    font-family: Catamaran;
+    font-size: 24px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-info .wrapper div {
+    width: 980px;
+    height: 230px;
+    margin: 0 0 20px 10px;
+    background-color: #e3e3e3;
+    float: left;
+}
+
+.about-info .wrapper div h2 {
+    padding-top: 7%;
+    font-weight: 600;
+    font-family: Catamaran;
+    font-size: 28px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-info .wrapper div p {
+    padding-top: 2%;
+    font-weight: 600;
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
 /* Footer */
 
 footer {
